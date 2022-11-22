@@ -40,16 +40,14 @@
   <li><!--noindex--><a href="http//:example.com">Ссылка без индексации</a><!--/noindex-->
   <li><a href="https://yandex.ru/" rel="help">Контекстная информация</a></li>
   <li><a href="https://yandex.ru/"><img src="https://icon2.cleanpng.com/20180620/wy/kisspng-yandex-internet-5b2aa1107b69c0.5570827015295204005055.jpg" alt="Логотип Яндекс"></a></li>
-     <li> 
-    <img src="https://uslugino.ru/img/105/296089.jpg" width="57" height="57" alt="tg" usemap="#tg">
-                <img src="https://cdn.wmaraci.com/blog/wikipedia-logo.png" style="width: 266px; height: 88px;" alt="Wiki">
-                <map name="tg">
-                    <area shape="circle" coords="63,40,50" href="https://web.telegram.org/k/" alt="linkTG">
-                </map>
-                <map name="wiki">
-                    <area shape="rect" coords="0,0,266,88" href="https://ru.wikipedia.org/" alt="linkWIKI">
-                </map>
-            </li>
+     <li><a href="https://yandex.ru/"><img src="https://icon2.cleanpng.com/20180620/wy/kisspng-yandex-internet-5b2aa1107b69c0.5570827015295204005055.jpg" alt="Логотип Яндекс"></a></li>
+       <li>
+        <map name="map1">
+          <area shape="circle" coords= "85,85,65"  href="http://example.com" alt="circle">
+          <area shape="rect" coords = "164,10,290,140" href="http://example.com/" alt="square">
+        </map>
+        <img usemap="#map1" src="https://i.ibb.co/d5nHNQ0/Figures.jpg" Width="301" Height="174" alt="shapes">
+      </li>
   <li><a href="example.html">Относительная ссылка</a></li>
   <li><a href="/about/index.html">Ссылка about</a></li>
   <li><a href="../index.html">Уровнем выше</a></li>
@@ -58,39 +56,34 @@
   <li><a href="/about">Сокращенная ссылка на внутреннюю</a></li>
 </ol>
 
-        <h1 id="2_chapter">Таблица оценок</h1>
-    <table>
-        <tr class="k">
-            <th>Имя</th>
-            <th>Фамилия</th>
-            <th>Оценка</th>
-        </tr>
-        <tr class="k">
-            <td>Аида</td>
-            <td>Федорова</td>
-            <td>5</td>
-        </tr>
-        <tr class="n_k">
-            <td colspan="3">Максим Балагдин 5</td>
-        </tr>
-        <tr class="k">
-            <td>Александра</td>
-            <td>Говорухина</td>
-            <td>5</td>
-        </tr>
-         <tr class="n_k">
-            <td colspan="3">Максим Замотаев  3</td>
-        </tr>
-        <tr class="k">
-            <td>Эрнест</td>
-            <td>Бадикян</td>
-            <td>4</td>
-        </tr>
-        <tr class="n_k">
-            <td colspan="3">Андрей Деркач  5</td>
-        </tr>
-       
-    </table>
+        <h1 id="2_chapter">Таблица </h1>
+ <table>
+	  <tbody>
+		  <tr>
+			  <td BGCOLOR="#99CC33">Дата</td>
+			  <td BGCOLOR="#99CC33">Время</td>
+			  <td BGCOLOR="#99CC33">Планы</td>
+		  </tr>
+		  <tr>
+			  <td BGCOLOR="#ffff00">1</td>
+			  <th BGCOLOR="#ffff00">2</td>
+			  <th BGCOLOR="#ffff00">3</td>
+		  </tr>
+		  <tr>
+			  <td BGCOLOR="#99CC33">4</td>
+			  <td BGCOLOR="#99CC33">5</td>
+			  <td BGCOLOR="#99CC33">6</td>
+		  </tr>
+		  <tr>
+			  <th BGCOLOR="#ffff00">7</td>
+			  <th BGCOLOR="#ffff00">8</td>
+			  <th BGCOLOR="#ffff00">9</td>
+		  </tr>
+		  <tr>
+			  <td colspan="3" BGCOLOR="#99CC33">Объединённая ячейчка</td>
+		  </tr>
+	  </tbody>
+		   </table>
 
     <h1 id="3_chapter">Форма</h1>  
 <br><form>
